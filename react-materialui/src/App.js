@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import { Button, ThemeProvider } from "@material-ui/core";
-
-function App() {
-    return (
-        <ThemeProvider>
-            <Button variant="contained" color="primary">
-                Primary
-            </Button>
-        </ThemeProvider>
-    );
-}
-=======
 import React, { useState } from "react";
 import { ThemeProvider, createMuiTheme, makeStyles } from "@material-ui/core";
 
@@ -50,5 +37,4 @@ function App() {
     );
 }
 
->>>>>>> c67a8d54d538a186e69fee02b6697a61c61ae143
 export default App;
